@@ -1,1 +1,82 @@
  
+/* Button 1 one will fade a bit when hovering over it. */
+.button1{
+    height:50px;
+    width:100px;
+    border:5px dashed blue;
+    background-color:lightblue;
+    box-shadow: 10px 10px 15px #888;
+    border-radius:5px;
+    opacity: 1;
+   transition: opacity .10s ease-in-out;
+   -moz-transition: opacity .10s ease-in-out;
+   -webkit-transition: opacity .10s ease-in-out;
+   }
+   .button1:hover {
+   opacity: 0.65;
+      }
+
+
+
+/*Button2 is reminiscent of 80's style buttons in games and such. Will change colors when hovered over. */      
+.button2 {
+margin-left: 10px;
+background-color: lightgreen;
+width: 180px;
+height:100px;
+padding: 50px,60px;
+color: rgba(20, 15, 30, 0.8);
+text-transform: uppercase;
+border: 1px solid green ;
+font-weight: bold;
+font-size: 20px;    
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+-border-radius: 3px;
+text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8), 0 -1px 0 rgba(25, 27, 9, 0.9);     
+-moz-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 5px 0 #3a79a4, 0 6px 0 #593a11, 0 13px 0 #ccc;
+-webkit-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 5px 0 #3a79a4, 0 6px 0 #593a11, 0 13px 0 #ccc;
+-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 5px 0 #3a79a4, 0 6px 0 #593a11, 0 13px 0 #ccc;
+-webkit-transition: background 0.2s ease-out;
+}
+/* This is where the color change magic happens */
+.button2:hover {
+background-color:lightblue;
+}
+
+
+
+/* A oval shaped button that will change color when hovered over. The colors that it changes to can be easily changed by changing the hexadecimal colors for .button3:hover */
+.button3 {
+   height: 40px;
+   width: 80px;
+   border-top: 1px solid #3a7599;
+   background: #334a59;
+   background: -webkit-gradient(linear, left top, left bottom, from(#659cba), to(#334a59));
+   background: -webkit-linear-gradient(top, #659cba, #334a59);
+   background: -moz-linear-gradient(top, #659cba, #334a59);
+   background: -ms-linear-gradient(top, #659cba, #334a59);
+   background: -o-linear-gradient(top, #659cba, #334a59);
+   padding: 8.5px 17px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 13px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button3:hover {
+   border-top-color: #305269;
+   background: #305269;
+   color: #0d0d08;
+   }
+.button3:active {
+   border-top-color: #426a85;
+   background: #426a85;
+   }
