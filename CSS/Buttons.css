@@ -20,28 +20,28 @@
 
 /*Button2 is reminiscent of 80's style buttons in games and such. Will change colors when hovered over. */      
 .button2 {
-margin-left: 10px;
-background-color: lightgreen;
-width: 180px;
-height:100px;
-padding: 50px,60px;
-color: rgba(20, 15, 30, 0.8);
-text-transform: uppercase;
-border: 1px solid green ;
-font-weight: bold;
-font-size: 20px;    
--moz-border-radius: 3px;
--webkit-border-radius: 3px;
--border-radius: 3px;
-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8), 0 -1px 0 rgba(25, 27, 9, 0.9);     
--moz-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 5px 0 #3a79a4, 0 6px 0 #593a11, 0 13px 0 #ccc;
--webkit-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 5px 0 #3a79a4, 0 6px 0 #593a11, 0 13px 0 #ccc;
--box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 5px 0 #3a79a4, 0 6px 0 #593a11, 0 13px 0 #ccc;
--webkit-transition: background 0.2s ease-out;
+    margin-left: 10px;
+    background-color: lightgreen;
+    width: 180px;
+    height:100px;
+    padding: 50px, 60px;
+    color: rgba(20, 15, 30, 0.8);
+    text-transform: uppercase;
+    border: 1px solid green;
+    font-weight: bold;
+    font-size: 20px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -border-radius: 3px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8), 0 -1px 0 rgba(25, 27, 9, 0.9);
+    -moz-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 5px 0 #3a79a4, 0 6px 0 #593a11, 0 13px 0 #ccc;
+    -webkit-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 5px 0 #3a79a4, 0 6px 0 #593a11, 0 13px 0 #ccc;
+    -box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 5px 0 #3a79a4, 0 6px 0 #593a11, 0 13px 0 #ccc;
+    -webkit-transition: background 0.2s ease-out;
 }
 /* This is where the color change magic happens */
-.button2:hover {
-background-color:lightblue;
+ .button2:hover {
+    background-color:lightblue;
 }
 
 
