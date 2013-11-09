@@ -1,4 +1,7 @@
-CSS-Buttons
-===========
+#CSS-Buttons
+***
 
-The codes provided here are free, open-source buttons that you can use, modify, and share for your website. Feel free to fork this project.
+### The codes provided here are completely open-source and free. Feel free to use them on your website, and fork this project if you would like. 
+### The contributors to this project are:
++ **Christopher Durr**
+  + *Lead Programmer* 
