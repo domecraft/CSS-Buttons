@@ -1,0 +1,16 @@
+#blue {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius:5px;
+    text-align:center;
+}
+#green {
+    display: none;
+    margin: 20px 0px 0px 0px;
+    height: 200px;
+    width: 200;
+    background-color: green;
+    border-radius: 5px;
+}
