@@ -10,8 +10,8 @@
 #green {
     display: none;
     margin: 20px 0px 0px 0px;
-    height: 400px;
-    width: 200;
+    height: 200px;
+    width: 500px;
     background-color: green;
     border-radius: 5px
 }
